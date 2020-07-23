@@ -88,7 +88,7 @@ def callback_handling():
 
 @app.route('/login')
 def login():
-    return auth0.authorize_redirect(redirect_uri='https://flask-streaming-app.herokuapp.com/live')
+    return auth0.authorize_redirect(redirect_uri='https://flask-streaming-app2.herokuapp.com/live')
 
 
 @app.route('/logout')
