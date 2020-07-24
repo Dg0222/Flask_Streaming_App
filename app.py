@@ -26,7 +26,7 @@ from six.moves.urllib.parse import urlencode
 """Python Flask WebApp Auth0 integration starts here
 """
 
-app = Flask(__name__, static_url_path='/public', static_folder='./public')
+app = Flask(__name__,)
 app.secret_key = 'CNT'
 app.debug = True
 
